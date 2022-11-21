@@ -1,0 +1,153 @@
+.grid-letras{
+    position: absolute;
+    bottom: 445px;
+    justify-content: center;
+
+
+}
+
+  .grid-contenedor-letras{
+    display: grid;
+    grid-template-columns: 20px 25px 35px;
+    grid-template-rows: repeat (2,1fr);
+    column-gap: 10px;
+    justify-content: space-around;
+    width: 20vh;
+    height: 20%;
+}
+
+.cajaLetras{
+    display: grid;
+    justify-content: space-around;
+
+}
+
+
+.black{
+    align-items: flex-start;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: span 1;
+    grid-column-end: 2;
+}
+
+.teal{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: span 1;
+    grid-column-end: 3;
+    color: teal;
+}
+
+.blue{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: span 1 ;
+    grid-column-end: 4;
+    color: blue;
+}
+
+.navy{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: span 1;
+    grid-column-end: 5;
+    color: navy;
+}
+
+.lime{
+    grid-row-start: 1;
+    grid-column-start: 5;
+    grid-row-end: span 1;
+    grid-column-end: 6;
+    color: lime;
+}
+
+.white{
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-row-end: span 1;
+    grid-column-end: 7;
+    color: white;
+}
+
+.purple{
+    grid-row-start: 1;
+    grid-column-start: 7;
+    grid-row-end: span 1;
+    grid-column-end: 8;
+    color: purple;
+}
+
+.yellow{
+    grid-row-start: 1;
+    grid-column-start: 8;
+    grid-row-end: span 1;
+    grid-column-end: 9;
+    color: yellow;
+}
+
+.olive{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: span 1;
+    grid-column-end: 2;
+    color: olive;
+}
+
+.red{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: span 1;
+    grid-column-end: 3;
+    color: red;
+}
+
+.marron{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: span 1;
+    grid-column-end: 4;
+    color: black;
+    
+}
+
+.gray{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: span 1;
+    grid-column-end: 5;
+    color: gray;
+}
+
+.fuchsia{
+    grid-row-start: 2;
+    grid-column-start: 5;
+    grid-row-end: span 1;
+    grid-column-end: 6;
+    color: fuchsia;
+}
+
+.green{
+    grid-row-start: 2;
+    grid-column-start: 6;
+    grid-row-end: span 1;
+    grid-column-end: 7;
+    color: green;
+}
+
+.aqua{
+    grid-row-start: 2;
+    grid-column-start: 7;
+    grid-row-end: span 1;
+    grid-column-end: 8;
+    color:aqua;
+}
+
+.silver{
+    grid-row-start: 2;
+    grid-column-start: 8;
+    grid-row-end: span 1;
+    grid-column-end: 9;
+    color: silver;
+}
